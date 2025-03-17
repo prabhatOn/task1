@@ -71,7 +71,7 @@ export default function Hero() {
               className="text-4xl md:text-5xl lg:text-6xl leading-tight tracking-tight mb-12"
               variants={itemVariants}
             >
-              At BridgeGroupSoultions, we build digital assets and immersive experiences for purposeful brands.
+              At BridgeGroupSolutions, we build digital assets and immersive experiences for purposeful brands.
             </motion.h1>
 
             <motion.p className="text-lg md:text-xl mb-12 text-muted-foreground" variants={itemVariants}>
@@ -116,7 +116,7 @@ export default function Hero() {
             aria-label="Toggle red theme"
             onKeyDown={(e) => e.key === "Enter" && toggleRedTheme()}
           >
-            BridgeGroupSoultions
+            BridgeGroupSolutions
           </motion.h2>
         </div>
       </motion.div>
