@@ -81,14 +81,14 @@ export default function CareersSection() {
             We're always looking for talented individuals to join our team. Send us your resume and we'll keep you in
             mind for future opportunities.
           </p>
-          <a
+          <motion.a
             href="#contact"
             className="inline-block px-6 py-3 bg-blue-500 text-white rounded-full"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             Submit Your Resume
-          </a>
+          </motion.a>
         </motion.div>
       </div>
     </section>

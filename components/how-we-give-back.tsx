@@ -7,7 +7,7 @@ export default function HowWeGiveBack() {
     <section id="how-we-give-back" className="py-32 bg-background">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
-          {/* Left column - Heading */}
+         
           <motion.div
             className="md:col-span-1"
             initial={{ opacity: 0, y: 20 }}
@@ -17,7 +17,7 @@ export default function HowWeGiveBack() {
             <h3 className="text-xs font-normal">03 — HOW WE GIVE BACK</h3>
           </motion.div>
 
-          {/* Right column - Content */}
+          
           <div className="md:col-span-3 space-y-12">
             <motion.h2
               className="text-xl md:text-2xl leading-tight tracking-tight"

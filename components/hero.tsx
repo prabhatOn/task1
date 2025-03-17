@@ -90,7 +90,7 @@ export default function Hero() {
       </motion.div>
 
       <motion.div
-        className="absolute top-40 right-32 md:right-22"
+        className="absolute top-48 right-56 md:right-56"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={isLoaded ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
         transition={{ duration: 0.8, delay: 1.5 }}
