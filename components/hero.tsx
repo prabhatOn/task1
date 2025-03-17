@@ -106,7 +106,7 @@ export default function Hero() {
       >
         <div className="overflow-hidden">
           <motion.h2
-            className="text-[12vw] md:text-[10vw] lg:text-[23.5vh] lading-none tracking-tighter font-medium whitespace-nowrap cursor-pointer big-text-hover-target"
+            className="text-[12vw] md:text-[10vw] lg:text-[22.5vh] lading-none tracking-tighter font-medium whitespace-nowrap cursor-pointer big-text-hover-target"
             onClick={toggleRedTheme}
             whileTap={{ scale: 0.98 }}
             transition={hoverTransition}
