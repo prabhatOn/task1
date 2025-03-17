@@ -57,7 +57,6 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const scrollDirection = useScrollDirection()
 
-  // Reduce unnecessary re-renders by memoizing navigation items
   const navItems = [
     { href: "#what-we-do", label: "What we do" },
     { href: "#who-we-are", label: "Who we are" },
@@ -90,7 +89,7 @@ export default function Header() {
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between h-20">
             <Link href="/" className="text-base">
-              Thirtysixstudio
+            BridgeGroupSolutions
             </Link>
 
             <nav className="hidden md:flex items-center gap-8">

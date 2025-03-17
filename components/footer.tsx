@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
 
           <div className="space-y-4">
-            <p>hello@thirtysixstudio.com</p>
+            <p>hello@BridgeGroupSolutions.com</p>
             <p>Amsterdam and worldwide</p>
           </div>
 
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
 
         <p className="text-sm text-muted-foreground">
-          Thirtysixstudio is registered with the Dutch Chamber of Commerce under registration number KVK 90310152.
+        BridgeGroupSolutions is registered with the Dutch Chamber of Commerce under registration number KVK 90310152.
         </p>
       </div>
     </footer>
